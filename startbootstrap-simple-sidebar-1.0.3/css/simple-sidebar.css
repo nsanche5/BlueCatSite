@@ -9,12 +9,17 @@ html, body {
     height: 100%;
 }
 
+@font-face{
+    font-family: "Monotype Corsiva";
+    src: url('../fonts/MTCORSVA.ttf');
+}
+
 #mainBody {
     background-color: black;
 }
 
 #sectionHeadings {
-    font-family: Monotype Corsiva;
+    font-family: "Monotype Corsiva";
     src: url(fonts/MTCORSVA.ttf);
     color: #fff;
     font-size: 45px;   
@@ -36,7 +41,7 @@ html, body {
 }
 
 #mainTitle {
-    font-family: Monotype Corsiva;
+    font-family: "Monotype Corsiva";
     src: url(fonts/MTCORSVA.ttf);
     color: #E2E1F0;
     font-size: 200px;
